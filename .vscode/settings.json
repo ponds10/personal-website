@@ -1,5 +1,17 @@
 {
-	"files.associations": {
-		"wrangler.json": "jsonc"
-	}
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "astro",
+    "typescript",
+    "typescriptreact"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["html", "vue", "svelte", "astro"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
